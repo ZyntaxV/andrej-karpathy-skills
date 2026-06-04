@@ -4,6 +4,8 @@ Behavioral guidelines to reduce common LLM coding mistakes. Merge with project-s
 
 **Tradeoff:** These guidelines bias toward caution over speed. For trivial tasks, use judgment.
 
+**Output style:** These guidelines govern *content and decisions* (what to do, what to surface, what to verify) — not verbosity or tone. If an output style is active (e.g. caveman mode), follow its formatting: keep the substance below, drop the fluff. Surfacing an assumption can be one terse line. Do not let these rules force long prose.
+
 ## 1. Think Before Coding
 
 **Don't assume. Don't hide confusion. Surface tradeoffs.**
